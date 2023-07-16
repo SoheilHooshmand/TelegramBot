@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 TOKEN: Final = "YOUR_TOKEN"
-BOT_USERNAME: Final = "@SooheilllBot_bot"
+BOT_USERNAME: Final = "YOUR_BOT_USERNAME"
 
 # Commands
 async def start_command(udate: Update, context: ContextTypes.DEFAULT_TYPE):
